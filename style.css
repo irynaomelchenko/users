@@ -1,0 +1,29 @@
+.get-users-btn {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  width: 100%;
+}
+
+span {
+  font-weight: 800;
+}
+
+.users-list-outer {
+  width: 20%;  
+}
+
+.users-list {
+  padding: 0;
+  margin: 0;
+}
+
+.users-list li a {
+  text-decoration: none;
+}
+
+.user-info-outer {
+  width: 80%
+}
