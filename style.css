@@ -1,29 +1,65 @@
-.get-users-btn {
-  cursor: pointer;
-  margin-bottom: 10px;
+body {
+  font-family: 'Roboto Slab', serif;
 }
+
+.btn {
+  cursor: pointer;
+  margin: 20px 0 10px;
+  padding: 4px 10px;
+  font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+  border-radius: 5px;
+  border: 1px solid grey;
+  outline: none;
+  background-color: #6293fc;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-color: #97b6fa;
+}
+
 .container {
   display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 
-span {
+h2 {
   font-weight: 800;
+  margin: 10px 0;
 }
 
-.users-list-outer {
-  width: 20%;  
+.col {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 0 10px;
+  width: 31%;
 }
 
 .users-list {
-  padding: 0;
+  list-style-position: inside;
   margin: 0;
+  padding: 0;
 }
 
-.users-list li a {
-  text-decoration: none;
+.users-list li {
+  cursor: pointer;
+  padding-bottom: 10px;
+  font-size: 18px;
 }
 
-.user-info-outer {
-  width: 80%
+.user-info-card p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.form-add-new-user input {
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Roboto Slab', serif;
+  padding: 4px 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid grey
 }
