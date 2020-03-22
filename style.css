@@ -46,7 +46,11 @@ h2 {
 .users-list li {
   cursor: pointer;
   padding-bottom: 10px;
-  font-size: 18px;
+  font-size: 18px;  
+}
+
+.users-list li:hover {
+  font-weight: bold;
 }
 
 .user-info-card p {
