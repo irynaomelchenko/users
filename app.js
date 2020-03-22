@@ -87,6 +87,7 @@ function renderNewUser(user) {
 }
 
 inputAdd.addEventListener('click', e => {
+  e.preventDefault();
   fetch('https://jsonplaceholder.typicode.com/users', {
     method: 'POST',
     body: JSON.stringify({
