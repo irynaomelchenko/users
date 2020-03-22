@@ -90,7 +90,6 @@ inputAdd.addEventListener('click', e => {
   fetch('https://jsonplaceholder.typicode.com/users', {
     method: 'POST',
     body: JSON.stringify({
-      id: +usersList.lastChild.dataset.userId+1,
       name: inputName.value,
       username: inputUserName.value,
       email: inputEmail.value
