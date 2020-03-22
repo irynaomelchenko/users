@@ -3,23 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <button class="btn get-users-btn">Get users</button>
     <div class="container">
-        <div class="users-list-outer">
-            <span>Users:</span>
-            <ul class="users-list"></ul>
+        <div class="users-list-outer col">
+            <h2>Users</h2>
+            <ol class="users-list"></ol>
         </div>        
-        <div class="user-info-outer">
-            <span>User info:</span>
+        <div class="user-info-outer col">
+            <h2>User info</h2>
             <div class="user-info-card"></div>            
         </div>
+        <div class="new-user-outer col">
+            <h2>Add a new user</h2>
+            <form action="#" name="form-add-new-user" class="form-add-new-user">
+                <input id="input-name" type="text" placeholder="Name">
+                <input id="input-user-name" type="text" placeholder="User name">
+                <input id="input-email" type="email" placeholder="E-mail">
+                <input id="input-add" type="submit" value="Add" class="btn">
+            </form>
+        </div>        
     </div>
-    
-
-
     <script src="app.js"></script>
 </body>
 </html>
